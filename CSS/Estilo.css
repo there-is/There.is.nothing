@@ -1,0 +1,508 @@
+    * {
+        margin: 0%;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+/* index.html */
+
+.body-index{
+display: grid;
+grid-template-areas: 
+"heder heder heder "
+"nav nav nav "
+"img txtIX txt"
+"txt2 txt2 txt2"
+"sec sec sec"
+"foot foot foot "
+;
+grid-template-rows: 161px 24.67px 450px ;
+
+grid-template-columns: 500px 240px auto;
+
+
+
+}
+
+.indexHeader{
+    grid-area: heder;
+
+}
+
+.NavIndex{
+    grid-area: nav;
+}
+
+.index-img{
+    grid-area: img;
+    
+}
+
+
+.section-index-border{
+    grid-area: sec;
+}
+
+
+.footerIndex{
+    grid-area: foot;
+}
+
+
+.texto-index{
+    grid-area:txt ;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+.texto-index-title{
+    text-decoration: underline;
+}
+
+.texto-index2{
+    grid-area: txt2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texto-index2-title{
+    text-decoration: underline;
+}
+
+.text-img{
+grid-area: txtIX; 
+color: cornsilk;
+margin-right: 55px;
+margin-top:23px ;
+}
+.text-img1{
+    text-decoration: underline #fdc938;
+}
+
+.text-img2{
+    text-align: left;
+}
+
+
+.indexHeader{
+    color:  rgb(221, 161, 94);
+    text-decoration:underline;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 150%;
+    text-align: center;
+    background-color: #211f20;
+}
+
+
+.NavIndex {
+    background-color:#fdc938;
+
+}
+
+.NavIndex a {
+    display: inline;
+    float: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-left: 43px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    
+}
+
+.NavIndex a:hover{
+    color: blanchedalmond;
+
+}
+
+
+.index-img{
+background-color: #211f20;
+text-align: center;
+margin-left: 20px;
+margin-right: 54px;
+margin-top: 6px;
+padding-top: 12px;
+padding-right: 220px;
+width: 700px;
+}
+
+
+
+.texto-index{
+    margin-right: 20px;
+}
+
+
+
+
+.section-index-border{
+    background-color: #fdc938;
+    height:10px;
+    
+}
+
+.h2Index h2{
+    text-decoration: underline;
+    text-align: center;
+    background-color: #211f20;
+    height: 500px;
+}
+
+.footerIndex {
+    color: #fdc938;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #211f20;
+
+}
+
+.p1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: scale(0.6,0.6);
+}
+
+.IMGindex1{
+width: 50px;
+
+
+}
+
+
+
+/*producto.html*/
+
+.bodyProducto{
+display: grid;
+grid-template-areas: 
+"heder1 heder1 heder1"
+"nav1 nav1 nav1"
+"tabla1 . ."
+;
+
+}
+
+.prodoHeader{
+grid-area: heder1;
+
+}
+
+.BotonProduc1{
+grid-area: nav1;
+    
+    }
+    
+
+.tableProduct1{
+grid-area: tabla1;
+
+
+}
+
+.prodoHeader {
+    color:  rgb(221, 161, 94);
+    font-family: 'Abril Fatface', cursive;
+    background-color: #211f20;
+    text-align: center;
+}
+
+.section-product-border{
+height: 2px;
+background-color:#fdc938 ;
+}
+
+.TitleProd{ 
+    text-decoration: underline;
+
+
+}
+
+.BotonProduc{
+    display: inline;
+    float: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.BotonProduc1 a:hover {
+    color: blanchedalmond;
+}
+
+.BotonProduc1{
+background-color: #fdc938;
+
+
+}
+
+.prodoList  {
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(40, 54, 24);
+    text-align: center;
+    
+}
+
+.tableProduct {
+    color: rgb(96, 108, 56);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.tableProduct2 {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.tableProduct2 tr{
+    text-decoration: none;
+}
+
+/*contacto.html*/
+
+.bodyContact{
+    display: grid;
+    grid-template-areas: 
+    "hederC hederC hederC"
+    "navC navC navC"
+    ". tablaC ."
+    ;
+    
+}
+    
+    .contactHeader{
+    grid-area: hederC;
+    
+}
+    
+    .BotonContact1{
+    grid-area: navC;
+        
+}
+    
+    .contactSect{
+    grid-area:tablaC;
+    
+    
+}
+
+.contactHeader {
+    color:  rgb(221, 161, 94);
+    font-family: 'Abril Fatface', cursive;
+    background-color: #211f20;
+    text-align: center;
+
+}
+
+.BotonContact{
+    display: inline;
+    float: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.section-contact-border{
+    height: 2px;
+    background-color:#fdc938 ;
+}
+
+.BotonContact1{
+
+background-color: #fdc938;
+
+}
+
+.BotonContact1 a:hover {
+    color: blanchedalmond;
+}
+
+.titleContact{
+text-decoration: underline;
+
+}
+
+.contactSect {
+    text-align: center;
+
+}
+
+/* envios.html */
+
+.bodyEnv{
+    display: grid;
+    grid-template-areas: 
+    "hederE hederE hederE"
+    "navE navE navE"
+    ". tablaE ."
+    "tableE1 . ."
+    ;
+    
+}
+    
+    .hederEnv {
+    grid-area: hederE;
+    
+}
+    
+    .BotonEnv1 {
+    grid-area: navE;
+        
+}
+    
+    
+
+.tableEnv{
+    grid-area:tableE1;
+}
+
+
+
+
+.hederEnv {
+    color:  rgb(221, 161, 94);
+    font-family: 'Abril Fatface', cursive;
+    background-color: #211f20;
+    text-align: center;
+}
+
+.section-env-border{
+    height: 2px;
+    background-color:#fdc938 ;
+
+}
+
+
+.titleEnv{
+text-decoration: underline;
+
+}
+
+
+.BotonEnv{
+    display: inline;
+    float: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+}
+
+.BotonEnv1{
+    background-color:#fdc938 ;
+
+}
+
+.BotonEnv1 a:hover {
+    color: blanchedalmond;
+}
+
+
+.secth2Envios {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(96, 108, 56);
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.tableEnv {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* galeria.html */
+
+.headerGal {
+    color:  rgb(221, 161, 94);
+    font-family: 'Abril Fatface', cursive;
+    background-color: #211f20;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.hederGal1{
+    height: 2px;
+    background-color:#fdc938 ;
+
+
+}
+
+
+.BotonGaler {
+    display: inline;
+    float: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+}
+
+.BotonGaler1 a:hover{
+    color: blanchedalmond;
+}
+
+.BotonGaler1{
+    background-color: #fdc938;
+
+}
+
+
+.Sech2Gal  {
+    color:rgb(40, 54, 24);
+    text-align: center;
+}
+
+
+.IMG1 {
+    display: grid;
+    grid-template-columns: 300px 500px;
+    grid-template-rows: 535px ;
+    justify-content: space-around;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+	.IMG1 {
+        grid-template-columns: 1fr;
+    }
+    
+    }
+
+    @media only screen and (max-width: 320px) {
+        .IMG1 {
+            grid-template-columns: 1fr;
+        }
+        
+        }
+
+
+/* GALERIA 2
+.Gal2Foto{
+    color:  rgb(221, 161, 94);
+    text-decoration:underline;
+    background-color: #211f20; 
+    font-family: 'Abril Fatface', cursive;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 5px;
+} */
+
+
+
